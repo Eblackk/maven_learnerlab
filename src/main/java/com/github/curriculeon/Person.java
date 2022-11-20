@@ -3,8 +3,7 @@ package com.github.curriculeon;
 import com.sun.xml.internal.bind.v2.model.core.ID;
 
 public class Person {
-    public Person() {
-    }
+
 
     private long id; //should be "final"
     private String name;
@@ -15,6 +14,9 @@ public class Person {
         this.name = name;
     }
 
+    public Person(String name) {
+
+    }
 
 
     public long getId() {
